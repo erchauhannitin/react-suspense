@@ -11,7 +11,6 @@ const wrapPromise = (promise) => {
 
   let suspender = promise.then(
     (r) => {
-      console.log("result - ", r);
       status = "success";
       result = r;
     },

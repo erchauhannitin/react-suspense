@@ -1,11 +1,8 @@
-import React, { Suspense, lazy } from "react";
+import React, { Suspense } from "react";
 import "./App.css";
 import { createResource } from "./components/FetchApi";
 import { Person } from "./components/Person";
 import { Number } from "./components/Number";
-
-// const Person = lazy(() => import("./components/Person"));
-// const Number = lazy(() => import("./components/Number"));
 
 const resource = createResource();
 
