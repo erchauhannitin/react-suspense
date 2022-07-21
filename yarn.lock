@@ -2593,9 +2593,9 @@ bser@2.1.1:
     node-int64 "^0.4.0"
 
 buffer-from@^1.0.0:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/buffer-from/-/buffer-from-1.1.1.tgz#32713bc028f75c02fdb710d7c7bcec1f2c6070ef"
-  integrity sha512-MQcXEUbCKtEo7bhqEs6560Hyd4XaovZlO/k9V3hjVUF/zwW7KBVdSK4gIt/bzwS9MbR5qob+F5jusZsb0YQK2A==
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/buffer-from/-/buffer-from-1.1.2.tgz#2b146a6fd72e80b4f55d255f35ed59a3a9a41bd5"
+  integrity sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==
 
 buffer-indexof@^1.0.0:
   version "1.1.1"
@@ -8594,14 +8594,15 @@ react-dev-utils@^10.2.1:
     strip-ansi "6.0.0"
     text-table "0.2.0"
 
-react-dom@^0.0.0-experimental-4c8c98ab9:
-  version "0.0.0-experimental-4c8c98ab9"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-0.0.0-experimental-4c8c98ab9.tgz#adc7613d275ac3ad03bf72c83699264a2aa235af"
-  integrity sha512-HOcYHzwcrm94CZ5YyZsLMNnuJCZA3uN+OTfhNJwVXUs5lXKiWcyiWCe9bwk7l0hPEYot2CI4dhQOQ4XMnCEbSQ==
+react-dom@0.0.0-experimental-5faf377df:
+  version "0.0.0-experimental-5faf377df"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-0.0.0-experimental-5faf377df.tgz#86a639c8fe2a66862991f3c8564c1a28173238e5"
+  integrity sha512-llGL18JvFCmQx87WiaiyP6zAjj9Y9EMU52YicV3uNfQMY7G2szkGJ6jd25HP2SeryHIuvqAwOnnIREG268tHtA==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
-    scheduler "0.0.0-experimental-4c8c98ab9"
+    prop-types "^15.6.2"
+    scheduler "0.0.0-experimental-5faf377df"
 
 react-error-overlay@^6.0.7:
   version "6.0.7"
@@ -8673,15 +8674,14 @@ react-scripts@3.4.1:
   optionalDependencies:
     fsevents "2.1.2"
 
-react@^0.0.0-experimental-4c8c98ab9:
-  version "0.0.0-fec00a869"
-  resolved "https://registry.yarnpkg.com/react/-/react-0.0.0-fec00a869.tgz#1803f4f17cdd5adfdf614de2386c5fb5c84bbe91"
-  integrity sha512-FaS3ViFU4ag7cuhDHQgGK3DAdWaD8YFXzEbO/Qzz33Si7VEzRRdnyoegFwg7VkEKxR6CvCVP6revi9Tm3Gq+WQ==
+react@0.0.0-experimental-5faf377df:
+  version "0.0.0-experimental-5faf377df"
+  resolved "https://registry.yarnpkg.com/react/-/react-0.0.0-experimental-5faf377df.tgz#f4f33e25ba508b6bd8a4a578ae6f3365e5ed834c"
+  integrity sha512-S/oqv3L/rzEd3ynePCKlkgErthrKOEg+jTOQRLMTDKxWWKyWZszJrG/bVVdMU36xR/7nMld3pEQj/zH5Pm9sJw==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.2"
-    scheduler "0.0.0-fec00a869"
 
 read-pkg-up@^2.0.0:
   version "2.0.0"
@@ -9166,18 +9166,10 @@ saxes@^3.1.9:
   dependencies:
     xmlchars "^2.1.1"
 
-scheduler@0.0.0-experimental-4c8c98ab9:
-  version "0.0.0-experimental-4c8c98ab9"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.0.0-experimental-4c8c98ab9.tgz#d4384017ed8ca55dcba9b296eb1e0898d0e03ca2"
-  integrity sha512-32GW0cUH+xaLuFLbIa2q47p9FrHtQFCzPzFs5Ltf8jHZ1DOLNX6H6LoDdw1oKbTJf/gD4eWCtxAYeIhDs9eEwA==
-  dependencies:
-    loose-envify "^1.1.0"
-    object-assign "^4.1.1"
-
-scheduler@0.0.0-fec00a869:
-  version "0.0.0-fec00a869"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.0.0-fec00a869.tgz#e28ff1aa107e1d04d6e8901641b4fb1e3ba98577"
-  integrity sha512-0U25jnyBP6dRPYwaVW4WMYB0jJSYlrIHFmIuXv27X+KIHJr7vyE9gcFTqZ61NQTuxYLYepAHnUs4KgQEUDlI+g==
+scheduler@0.0.0-experimental-5faf377df:
+  version "0.0.0-experimental-5faf377df"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.0.0-experimental-5faf377df.tgz#48d1a87898f44b6042193baa0b22da65979ae595"
+  integrity sha512-NcVYkok4zMoKEsgrXcXFmLrNp7qCKocZFpACnKQGylDzkzF/XUKjPGQ0f3Vj0QV3ijYhH4qSzLJwv1QdQe4DEw==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
@@ -9485,9 +9477,9 @@ source-map-resolve@^0.5.0, source-map-resolve@^0.5.2:
     urix "^0.1.0"
 
 source-map-support@^0.5.6, source-map-support@~0.5.12:
-  version "0.5.16"
-  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.16.tgz#0ae069e7fe3ba7538c64c98515e35339eac5a042"
-  integrity sha512-efyLRJDr68D9hBBNIPWFjhpFzURh+KJykQwvMyW5UiZzYwoF6l4YMMDIJJEyFWxWCqfyxLzz6tSfUFR+kXXsVQ==
+  version "0.5.21"
+  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.21.tgz#04fe7c7f9e1ed2d662233c28cb2b35b9f63f6e4f"
+  integrity sha512-uBHU3L3czsIyYXKX88fdrGovxdSCoTGDRZ6SYXtSRxLZUzHg5P/66Ht6uoUlHu9EZod+inXhKo3qQgwXUT/y1w==
   dependencies:
     buffer-from "^1.0.0"
     source-map "^0.6.0"
@@ -9941,9 +9933,9 @@ terser-webpack-plugin@^1.4.3:
     worker-farm "^1.7.0"
 
 terser@^4.1.2, terser@^4.4.3, terser@^4.6.3:
-  version "4.6.7"
-  resolved "https://registry.yarnpkg.com/terser/-/terser-4.6.7.tgz#478d7f9394ec1907f0e488c5f6a6a9a2bad55e72"
-  integrity sha512-fmr7M1f7DBly5cX2+rFDvmGBAaaZyPrHYK4mMdHEDAdNTqXSZgSOfqsfGq2HqPGT/1V0foZZuCZFx8CHKgAk3g==
+  version "4.8.1"
+  resolved "https://registry.yarnpkg.com/terser/-/terser-4.8.1.tgz#a00e5634562de2239fd404c649051bf6fc21144f"
+  integrity sha512-4GnLC0x667eJG0ewJTa6z/yXrbLGv80D9Ru6HIpCQmO+Q4PfEtBFi0ObSckqwL6VyQv/7ENJieXHo2ANmdQwgw==
   dependencies:
     commander "^2.20.0"
     source-map "~0.6.1"
